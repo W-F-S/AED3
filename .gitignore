@@ -1,0 +1,8 @@
+espec_entrega03.pdf
+
+*.class
+*.db
+#./aed3/*.class
+#./dados/*.class
+#./entidades/*.class
+#./operacoes/*.class
