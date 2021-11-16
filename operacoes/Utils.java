@@ -4,6 +4,8 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
+import java.text.Normalizer;
+import java.util.regex.Pattern;
 
 public class Utils {
 
@@ -62,4 +64,9 @@ public class Utils {
     return sdf.format(dData);
   }
 
+  public static String semAcento(String str) {
+    String nfdNormalizedString = Normalizer.normalize(str, Normalizer.Form.NFD);
+    Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+    return pattern.matcher(nfdNormalizedString).replaceAll("").toLowerCase();
+  }
 }

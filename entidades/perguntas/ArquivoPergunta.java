@@ -144,4 +144,8 @@ public class ArquivoPergunta extends Arquivo<Pergunta> {
     indiceInvertidoPalavrasChave.close();
   }
 
+
+  public static int[] searchByKeyword(String[] str) {
+
+  }
 }
