@@ -71,11 +71,14 @@ public class Utils {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   public static String semAcento(String str) {
     String nfdNormalizedString = Normalizer.normalize(str, Normalizer.Form.NFD);
     Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
     return pattern.matcher(nfdNormalizedString).replaceAll("").toLowerCase();
 =======
+=======
+>>>>>>> b2d57cc (Att1)
   public static int[] intersectionBetweenArrays(int[] array1, int[] array2){
     //Integer[] resultado;
    // List<Integer> resultado= new ArrayList < Integer> ();
@@ -121,6 +124,15 @@ public class Utils {
       }
     }*/
     return resultado2;
+<<<<<<< HEAD
 >>>>>>> 5a6167b (segunda tentativa)
+=======
+=======
+  public static String semAcento(String str) {
+    String nfdNormalizedString = Normalizer.normalize(str, Normalizer.Form.NFD);
+    Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+    return pattern.matcher(nfdNormalizedString).replaceAll("").toLowerCase();
+>>>>>>> a6222bc (Att1)
+>>>>>>> b2d57cc (Att1)
   }
 }
