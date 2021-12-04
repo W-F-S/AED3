@@ -37,7 +37,7 @@ public class MinhasPerguntas {
       case 1:
         listarMinhasPerguntas();
         break;
-      case 2: 
+      case 2:
         incluirMinhaPergunta();
         break;
       case 3:
