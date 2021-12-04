@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 import operacoes.Acesso;
 import operacoes.AreaPessoal;
+import operacoes.BuscarPergunta;
 
 public class Main {
 
@@ -57,7 +58,7 @@ public class Main {
         AreaPessoal.menu();
         break;
       case 2:
-        System.out.println("Ainda não implementado.");
+        BuscarPergunta.menu();
         break;
       case 0:
         break;
