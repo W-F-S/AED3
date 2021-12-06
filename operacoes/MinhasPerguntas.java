@@ -64,7 +64,7 @@ public class MinhasPerguntas {
   public static void listarMinhasPerguntas() throws Exception {
     System.out.println("\nMINHAS PERGUNTAS");
     Pergunta[] perguntas = arqPerguntas.buscaPorUsuario(Utils.usuarioGlobal());
-    int i = 0;
+    int i = 0; 
     if (perguntas.length == 0) {
       Utils.pausa("Nenhuma pergunta encontrada!");
       return;

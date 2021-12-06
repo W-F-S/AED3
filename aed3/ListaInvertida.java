@@ -255,7 +255,12 @@ public class ListaInvertida {
     return true;
   }
 
-  // Retorna a lista de dados de uma determinada chave
+  /**
+   * Retorna uma lista de ids que contem a palavra chave passada por parametro
+   * @param c 
+   * @return 
+   * @throws Exception
+   */
   public int[] read(String c) throws Exception {
 
     ArrayList<Integer> lista = new ArrayList<>();
