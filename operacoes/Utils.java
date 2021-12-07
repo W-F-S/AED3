@@ -87,16 +87,6 @@ public class Utils {
     }
     Utils.pausa();
 
-/*    for(int i =1; i < array2.length; i++){
-      resp = Arrays.binarySearch(array1, array2[i]);
-      Utils.pausa();
-      System.out.println("resultado de resp: " + resp);
-      Utils.pausa();
-      if(resp >= 0){
-        resultado.add(array2[i]);              
-      } 
-    }*/
-
     int k = 0; //dumb way. refatorar essa parte. intersection between two arrays in java
     for(int i = 0; i < array1.length; i++){
       for(int j = 0; j < array2.length; j++){
@@ -107,11 +97,6 @@ public class Utils {
       }
     }
 
- /*   for(int i = 0; i < resultado.size(); i++) {
-      if (resultado.get(i) != null) {
-        resultado2[i] = resultado.get(i);
-      }
-    }*/
     return resultado2;
   }
 }

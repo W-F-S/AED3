@@ -72,26 +72,6 @@ public class ArquivoPergunta extends Arquivo<Pergunta> {
     return super.read(idPergunta);
   }
 
-  /**public static void ordenarPerguntas(Pergunta[] desordenado, int lo, int hi){
-    Pergunta[] ordenado = new Pergunta[desordenado.length];
-
-    //return ordenado;
-  }*/
-
-  /*private static void particao(Pegunta[] a, int lo, int hi){
-    int i = lo, j = hi +1;
-    Pergunta v = a[lo];
-
-    while(true){
-
-      while(a[++i].getNota <= v.getNota()){
-
-      }
-
-      if(i >= j) break;
-    }
-  }*/
-
   // --------------------------------------------------------
   // UPDATE
   // --------------------------------------------------------
@@ -169,5 +149,4 @@ public class ArquivoPergunta extends Arquivo<Pergunta> {
     relacionamentoUsuarioPergunta.close();
     indiceInvertidoPalavrasChave.close();
   }
-
 }

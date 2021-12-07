@@ -74,5 +74,4 @@ public class ParUsuarioPergunta implements aed3.RegistroArvoreBMais<ParUsuarioPe
     this.idUsuario = dis.readInt();
     this.idPergunta = dis.readInt();
   }
-
 }

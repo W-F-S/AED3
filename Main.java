@@ -18,9 +18,8 @@ public class Main {
       d.mkdir();
     if (!(d = new File("dados/perguntas")).exists())
       d.mkdir();
-
-    // Operação auxiliar
-    // apagaArquivos();
+    if (!(d = new File("dados/respostas")).exists())
+      d.mkdir();
 
     try {
       if (Acesso.menu()) {
@@ -65,8 +64,6 @@ public class Main {
       default:
         System.out.println("Opção inválida");
       }
-
     } while (opcao != 0);
   }
-
 }

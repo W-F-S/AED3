@@ -67,7 +67,7 @@ public class MinhasPerguntas {
     int i = 0; 
     if (perguntas.length == 0) {
       Utils.pausa("Nenhuma pergunta encontrada!");
-      return;
+     return;
     }
     for (Pergunta p : perguntas) {
       System.out.println("\n" + (++i) + ") ");
@@ -103,7 +103,6 @@ public class MinhasPerguntas {
       Utils.pausa("Inclusão cancelada!");
     }
     return;
-
   }
 
   // --------------------------------------------------------
@@ -200,5 +199,4 @@ public class MinhasPerguntas {
     }
     return;
   }
-
 }
